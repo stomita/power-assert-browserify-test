@@ -1,0 +1,19 @@
+{
+  "name": "power-assert-browserify-test",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testem test/*.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "directories": {
+    "test": "test/"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "power-assert": "^0.7.2",
+    "espowerify": "^0.7.0"
+  }
+}

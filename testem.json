@@ -1,0 +1,11 @@
+{
+    "framework": "mocha",
+    "before_tests": "browserify test/foo.test.js -d -t espowerify -o ./browser-test/foo.test.js",
+    "watch_files": [
+        "./lib/*.js",
+        "./test/*.js"
+    ],
+    "src_files": [
+        "./browser-test/*.js"
+    ]
+}
